@@ -17,6 +17,6 @@ app.get("/data-fetch", (req, res) => {
         "huihui"
     );
     res.send(data);
-})
+});
 
 app.listen(3000);
